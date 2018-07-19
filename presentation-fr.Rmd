@@ -1,0 +1,279 @@
+---
+title: "<img src= 'img/placeholder.png' width = '40%'></br></br>SatRday"
+subtitle: "Paris"
+author: "Winter 2019"
+#date: "2016/12/12"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["custom.css", "slides.css"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: slide 
+
+## SatRday - À propos 
+
+.pull-left[
+
+</br>
+</br>
+</br>
+<img src ="img/placeholder.png" width = "90%"></img>
+
+]
+
+.pull-right[
+
++ SatRday est un __événement international__ lancé en 2016. 
+
++ SatRday a été sponsorisé par le __RConsortium__, projet open source de la fondation Linux visant à soutenir la communauté R internationale.
+
++ Projet (relativement) récent : l'objectif, à terme, étant d'organiser un événement par continent par trimestre.
+
++ Chaque événement amène entre 100 et 250 participants. 
+
++ En lien avec la communauté locale. 
+
+]
+
+---
+class: slide 
+
+## La philosophie SatRday
+
+#### Ouvert, et Open source 
+
+L'organisation d'un SatRday est ouverte à tous, à condition de respecter ces prérequis : 
+
++ L'événément est organisé un __samedi__.
+
++ L'événement doit suivre le __[Code de Conduite](https://knowledgebase.satrdays.org/diversity/)__, et l'équipe doit s'engager pour la __diversité__ et l'__inclusion__ des intervenants et du public. 
+
++ Le prix du ticket pour une personne de l'industrie ne doit pas dépasser 8 heures du salaire minimum local.
+
++ Une partie des tickets doit être gratuite, __réservée aux participants ne pouvant pas s'offrir le billet__ (étudiants, professionnels en reconversion, chômeurs, etc.).
+
++ Les intervenants ne paient pas le billet.
+
++ L'événement est organisé par des __bénévoles__.
+
++ Les __bénéfices__ (s'il y en a) seront utilisés pour __animer la communauté locale__ : meetup, organisation d'un workshop, ateliers... 
+
+---
+class: slide 
+
+## Pourquoi sponsoriser SatRday ?
+
+Quelques bonnes raisons de sponsoriser un SatRday :
+
++ SatRday est un organisé par des __bénévoles__ : en sponsorisant l'événement, vous montrez votre soutien à la communauté R/Open source locale.
+
++ SatRday est "non-profit" : les sponsorings et bénéfices (s'il y en a) seront __réinvestis dans des événements pour la communauté__.
+
++ SatRday est "low-cost" : nous souhaitons __fixer le prix d'entrée à un tarif le plus bas possible__. C'est grâce à nos sponsors que nous pouvons agir sur ce point.
+
++ SatRday est "à la pointe" : cette conférence a pour objectif d'inviter des "keynote speakers" __référents dans leur domaine d'expertise__. 
+
++ SatRday est "pour tous" : le progamme est préparé pour convenir __aux débutants et aux utilisateurs avancés__, mais aussi aux curieux.
+
++ SatRday est inclusif : en sponsorisant cet événement, vous __participez à l'effort d'inclusion des minorités dans le secteur de la tech/data science__. 
+
+---
+class: slide 
+
+## Comment sponsoriser SatRday ?
+
+Comment pouvez-vous aider SatRday ? 
+
++ __Sponsoring Accueil__ : vous pouvez mettre à disposition de l'événement des locaux. 
+
++ __Sponsoring Lunch__ : vous souhaitez financer le repas du midi 
+
++ __Sponsoring Coffee Break__ : vous financez un ou deux coffee break.
+
++ __Sponsoring Logisitique__ : vous soutenez la logistique de l'événement (aide sur place à l'installation et à l'organisation globale de la journée).
+
++ __Sponsoring Communication__ : vous sponsorisez pour l'impression d'affiches, de flyers, de plaquettes, la mise en ligne du site et l'animation des réseaux sociaux.
+
++ __Sponsoring Goodies__ : vous sponsorisez la création de Goodies pour l'événement : tshirts, stickers...
+
++ __Sponsoring financier__ : vous sponsorisez l'événement de manière classique.
+
+---
+class: slide 
+
+## Contreparties du sponsoring
+
+Selon votre plafond de sponsoring, vous aurez notamment, en contrepartie : 
+
++ La visibilité sur le __site web__ et le __compte Twitter__ de SatRday.
+
++ Votre __logo__ sur l'affiche, les flyers et le programme.
+
++ Votre __logo__ sur les slides d'ouverture, de break, et de fermeture de la conférence. 
+
++ Un __stand__, sur place, pendant les pauses.
+
++ La possibilité d'amener un __kakémono__. 
+
+---
+class: slidish 
+
+## SatRday - Timeline 
+
+.pull-left[
+
+### 2016 
+
++ Budapest 
+
+### 2017 
+
++ Cape Town 
+
++ Puerto Rico
+
+### 2018 
+
++ Cape Town 
+
++ Cardiff
+
++ Amsterdam 
+
++ Belgrade 
+
++ Washington 
+]
+
+.pull-right[
+</br>
+</br>
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+library(maps)
+library(ggplot2)
+library(dplyr)
+events <- tribble(
+  ~ place, ~ lat, ~ long,
+  "Budapest",47.497912, 19.040235, 
+  "Cape Town",-33.924869, 18.424055, 
+  "Puerto Rico",18.220833, -66.590149, 
+  "Cardiff",51.481581, -3.179090, 
+  "Amsterdam",52.370216, 4.895168, 
+  "Belgrade",44.786568, 20.448922, 
+  "Washington",38.907192, -77.036871
+)
+map_data("world") %>% 
+  ggplot(aes(long, lat, group=group)) +
+  geom_polygon(fill="white", colour="gray") +
+  geom_point(data = events, aes(long, lat, group = NULL), colour = "#3265B0", size = 2) + 
+  guides(fill=FALSE) +
+  coord_quickmap() +
+  theme_void()
+```
+
+]
+
+---
+classe: slide 
+
+## Paris 2019 
+
+### L'équipe organisatrice
+
+
+SatRday Paris 2019 est aujourd'hui porté par "gRrr", __collectif pour le développement de R dans la communauté Francophone__. Organisé notamment sur une Slack (plateforme d'échange en ligne), gRrr compte aujourd'hui 250 membres. Parmi ces membres, on retrouve : 
+
++ des __étudiants et doctorants__ : INSA, SciencePo, INRA, UGA...
+
++ des professionnels du __secteur public__ : INSEE, Etalab, SDES, DREES, DREAL, Ministère de la Justice, Pôle Emploi...
+
++ des professionnels du __secteur privé __: RTE, EDF, ThinkR, Locke Data, Datactivist, DreameRs, Ardata, Datapole, iAdvize, freelances...
+
++ des __ONG__ : rOpenSci...
+
++ des __chercheurs__ : CNRS, IRSN, LPNC...
+
+De __toute la France__ : Paris, Rennes, Toulouse, Marseille, Bordeaux, Grenoble... 
+
+... et d'__ailleurs__ : Togo, Sénégal, Suède... 
+
+---
+class: slidish
+
+## À propos de R 
+
+SatRday est une conférence centrée sur R, __langage open source de référence__ dans le secteur de la Data Science. 
+
+.pull-left[
+
+</br>
+</br>
+<img src ="img/rlogo.png" width = "90%"></img>
+
+]
+
+.pull-right[
+
++ R est __open source__ : libre et gratuit 
+
++ R est __référant__ : utilisé par les __universitaires__, __chercheurs__, et __industriels__.
+
++ R a fait ses preuves : il a soufflé ses __25 bougies__ cette année 
+
++ R est utilisé partout : Airbnb, BBC, Booking, Ebay, Facebook, Google, Microsoft, Netflix, Twitter, Uber... 
+
+]
+
+R est aujourd'hui la __lingua franca de la Data Science__, et est devenu un langage de programmation dont la maitrise est un véritable atout professionnel, et ce quel que soit le secteur d'expertise. 
+
+On retrouve des utilisateurs de R partout : dans le privé, avec l'énergie, la finance,  la banque, l'industrie pharmaceutique, le marketing, le commerce en ligne, comme dans le public, où R est notamment utilisé dans de nombreux ministères.
+
+---
+class: slide
+
+## En savoir plus 
+
+### SatRday 
+
++ SatRday : https://satrdays.org/ 
+
++ Knowledge Base : https://knowledgebase.satrdays.org/
+
+## R Consortium 
+
++ RConsortium : https://www.r-consortium.org/ 
+
+## R 
+
++ À propos de R : https://www.r-project.org/
+
++ Usage de R en entreprise : https://github.com/ThinkR-open/companies-using-r
+
+---
+class: slide 
+
+background-image: url(img/photogrid.jpg)
+
+---
+class: contact 
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+# Contact 
+
+## Colin Fay 
+
+### satrdayparis@gmail.com
+
+### 06.24.21.32.18
+
