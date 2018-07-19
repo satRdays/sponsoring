@@ -28,7 +28,7 @@ You'll find in this repo a xaringan template for creating slides that you can us
 
 You'll find a template in: 
 
-+ English : presentation-fr.Rmd
++ English : presentation-en.Rmd
 
 + French : presentation-fr.Rmd
 

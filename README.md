@@ -22,7 +22,7 @@ you can use when looking for sponsors.
 
 You’ll find a template in:
 
-  - English : presentation-fr.Rmd
+  - English : presentation-en.Rmd
 
   - French : presentation-fr.Rmd
 
