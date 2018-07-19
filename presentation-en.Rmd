@@ -259,9 +259,9 @@ class: contact
 
 # Contact 
 
-## Colin Fay 
+## WHO WHO
 
-### satrdayparis@gmail.com
+### this@that.com
 
-### 06.24.21.32.18
+### who you gonna call
 
