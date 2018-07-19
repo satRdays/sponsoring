@@ -17,3 +17,16 @@ you can use when looking for sponsors.
   - tweak the template so that it fits your needs
 
   - knit the Rmd
+
+### Languages
+
+You’ll find a template in:
+
+  - English : presentation-fr.Rmd
+
+  - French : presentation-fr.Rmd
+
+### Contribute
+
+Feel free to send your version, or to suggest changes to the template
+content / design.

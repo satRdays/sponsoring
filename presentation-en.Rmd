@@ -1,0 +1,267 @@
+---
+title: "<img src= 'img/placeholder.png' width = '40%'></br></br>SatRday"
+subtitle: "CITY"
+author: "DATE"
+#date: "2016/12/12"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["custom.css", "slides.css"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: slide 
+
+## SatRday - À propos 
+
+.pull-left[
+
+</br>
+</br>
+</br>
+<img src ="img/placeholder.png" width = "90%"></img>
+
+]
+
+.pull-right[
+
++ SatRday is an __international event__ launched in 2016. . 
+
++ SatRday has been sponsored by the __RConsortium__, the Linux Foundation's open source project supporting the international R community.
+
++ It's a (relatively) recent project: we aim at organizing one event per continent per quarter.
+
++ Each event brings between 100 and 250 participants. 
+
++ Always in connection with the local community.  
+
+]
+
+---
+class: slide 
+
+## The SatRday philosophy
+
+#### Open, and Open source 
+
+Everybody can organise a SatRday as long as it follows these requirements: 
+
+
++ The main event must happen on a __Saturday__
+
++ The event must operate under a __Code of Conduct__ and have a __strong commitment to increasing the diversity of speakers and attendees__
+
++ The ticket price to attend the Saturday for an industry person must __cost less than 8 hours of minimum wage work__
+
++ The event has a __pot of free tickets available for people who can’t afford__ the full cost
+
++ Speakers should not be required to pay the attendance fee
+
++ There should be a __mechanism to encourage and mentor new speakers__
+
++ The event should be __volunteer run__
+
++ __Excess funds should support the local community__ whether that’s the user group, holding the funds over for your next satRday, or arranging a big name speaker to come do a workshop during the next year
+
+
+---
+class: slide 
+
+## Why sponsor SatRday?
+
+Some good reasons to sponsor a SatRday:
+
++ SatRday is organized by __volunteers__: by sponsoring the event, you show your support to the local R/Open source community.
+
++ SatRday is non-profit: sponsorships and profits (if any) will be __reinvested in community events__.
+
++ SatRday is "low-cost": we want to __set the ticket at the lowest possible price__. It will be possible thanks to our sponsors.
+
++ SatRday is "at the cutting edge": this conference wants to invite keynote speakers __referents in their field of expertise__. 
+
++ SatRday is "for everyone": the program is __prepared to suit beginners and advanced users__.
+
++ SatRday is inclusive: by sponsoring this event, you __contribute to the effort to include minorities in the tech/data science sector__. 
+
+---
+class: slide 
+
+## How to sponsor SatRday?
+
+How can you help SatRday? 
+
++ __Sponsoring Venue__ : make your venue available for the event. 
+
++ __Sponsoring Lunch__ : finance the lunch break.
+
++ __Sponsoring Coffee Break__ : finance one or two coffee breaks.
+
++ __Sponsoring Logistic__ : support the global logistics of the event (help on site with the installation and overall organisation of the day).
+
++ __Sponsoring Communication__ : sponsor the printing of posters, flyers, leaflets, the website and social networks.
+
++ __Sponsoring Goodies__ : sponsor the creation of Goodies for the event: tshirts, stickers...
+
++ __Sponsoring financier__ : you sponsor the event in a classic way.
+
+---
+class: slide 
+
+##  Considerations for sponsoring
+
+Depending on your sponsorship, you will have, in return: 
+
++ Visibility on SatRday's __website__ and __twitter account__.
+
++ Your __logo__ on the posters, flyers and programs.
+
++ Your __logo__ on the opening, break, and closing slides of the conference. 
+
++ A __stand__, on site, during breaks.
+
+---
+class: slidish 
+
+## SatRday - Timeline 
+
+.pull-left[
+
+### 2016 
+
++ Budapest 
+
+### 2017 
+
++ Cape Town 
+
++ Puerto Rico
+
+### 2018 
+
++ Cape Town 
+
++ Cardiff
+
++ Amsterdam 
+
++ Belgrade 
+
++ Washington 
+]
+
+.pull-right[
+</br>
+</br>
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+library(maps)
+library(ggplot2)
+library(dplyr)
+events <- tribble(
+  ~ place, ~ lat, ~ long,
+  "Budapest",47.497912, 19.040235, 
+  "Cape Town",-33.924869, 18.424055, 
+  "Puerto Rico",18.220833, -66.590149, 
+  "Cardiff",51.481581, -3.179090, 
+  "Amsterdam",52.370216, 4.895168, 
+  "Belgrade",44.786568, 20.448922, 
+  "Washington",38.907192, -77.036871
+)
+map_data("world") %>% 
+  ggplot(aes(long, lat, group=group)) +
+  geom_polygon(fill="white", colour="gray") +
+  geom_point(data = events, aes(long, lat, group = NULL), colour = "#3265B0", size = 2) + 
+  guides(fill=FALSE) +
+  coord_quickmap() +
+  theme_void()
+```
+
+]
+
+---
+classe: slide 
+
+## PLACE YEAR 
+
+### The Organising team
+
+
+About your organising team...
+
+---
+class: slidish
+
+##  About R
+
+SatRday is a conference focused on R, __the main open source language__ for Data Science. 
+
+.pull-left[
+
+</br>
+</br>
+<img src ="img/rlogo.png" width = "90%"></img>
+
+]
+
+.pull-right[
+
++ R is __open source__ : free and open source.
+
++ R is __everywhere__ : used by __university__, __researchers__, and __industrial__.
+
++ R has proven himself: he blew his __25 candles__ this year.
+
++ R is used everywhere: Airbnb, BBC, Booking, Ebay, Facebook, Google, Microsoft, Netflix, Twitter, Uber... 
+
+]
+
+R is today the __lingua franca of Data Science__, and has become a real professional asset, whatever the sector of expertise. 
+
+R users can be found everywhere: in the private sector, with energy, finance, banking, the pharmaceutical industry, marketing, online commerce, as well as in the public sector, where R is used in many ministries.
+
+---
+class: slide
+
+## To know more 
+
+### SatRday 
+
++ SatRday : https://satrdays.org/ 
+
++ Knowledge Base : https://knowledgebase.satrdays.org/
+
+## R Consortium 
+
++ RConsortium : https://www.r-consortium.org/ 
+
+## R 
+
++ About R : https://www.r-project.org/
+
++ Companies using R : https://github.com/ThinkR-open/companies-using-r
+
+---
+class: slide 
+
+background-image: url(img/photogrid.jpg)
+
+---
+class: contact 
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+# Contact 
+
+## Colin Fay 
+
+### satrdayparis@gmail.com
+
+### 06.24.21.32.18
+

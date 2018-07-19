@@ -1,17 +1,24 @@
----
-title: "<img src= 'img/placeholder.png' width = '40%'></br></br>SatRday"
-subtitle: "Paris"
-author: "Winter 2019"
-#date: "2016/12/12"
-output:
-  xaringan::moon_reader:
-    lib_dir: libs
-    css: ["custom.css", "slides.css"]
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SatRday</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Winter 2019" />
+    <link rel="stylesheet" href="custom.css" type="text/css" />
+    <link rel="stylesheet" href="slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# <img src= 'img/placeholder.png' width = '40%'></br></br>SatRday
+## Paris
+### Winter 2019
+
 ---
 
-```{r setup, include=FALSE}
-options(htmltools.dir.version = FALSE)
-```
+
+
 
 class: slide 
 
@@ -19,10 +26,10 @@ class: slide
 
 .pull-left[
 
-</br>
-</br>
-</br>
-<img src ="img/placeholder.png" width = "90%"></img>
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;img src ="img/placeholder.png" width = "90%"&gt;&lt;/img&gt;
 
 ]
 
@@ -151,31 +158,10 @@ class: slidish
 ]
 
 .pull-right[
-</br>
-</br>
+&lt;/br&gt;
+&lt;/br&gt;
 
-```{r echo = FALSE, warning=FALSE, message=FALSE}
-library(maps)
-library(ggplot2)
-library(dplyr)
-events <- tribble(
-  ~ place, ~ lat, ~ long,
-  "Budapest",47.497912, 19.040235, 
-  "Cape Town",-33.924869, 18.424055, 
-  "Puerto Rico",18.220833, -66.590149, 
-  "Cardiff",51.481581, -3.179090, 
-  "Amsterdam",52.370216, 4.895168, 
-  "Belgrade",44.786568, 20.448922, 
-  "Washington",38.907192, -77.036871
-)
-map_data("world") %>% 
-  ggplot(aes(long, lat, group=group)) +
-  geom_polygon(fill="white", colour="gray") +
-  geom_point(data = events, aes(long, lat, group = NULL), colour = "#3265B0", size = 2) + 
-  guides(fill=FALSE) +
-  coord_quickmap() +
-  theme_void()
-```
+&lt;img src="presentation-fr_files/figure-html/unnamed-chunk-1-1.png" width="672" /&gt;
 
 ]
 
@@ -212,9 +198,9 @@ SatRday est une conférence centrée sur R, __langage open source de référence
 
 .pull-left[
 
-</br>
-</br>
-<img src ="img/rlogo.png" width = "90%"></img>
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;img src ="img/rlogo.png" width = "90%"&gt;&lt;/img&gt;
 
 ]
 
@@ -263,11 +249,11 @@ background-image: url(img/photogrid.jpg)
 ---
 class: contact 
 
-</br>
-</br>
-</br>
-</br>
-</br>
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
+&lt;/br&gt;
 
 # Contact 
 
@@ -276,4 +262,36 @@ class: contact
 ### satrdayparis@gmail.com
 
 ### 06.24.21.32.18
+    </textarea>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function() {
+  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})();</script>
 
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+});
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
