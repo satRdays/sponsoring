@@ -1,5 +1,5 @@
 ---
-title: "<img src= 'img/placeholder.png' width = '40%'></br></br>SatRday"
+title: "<img src= 'img/placeholder.png' width = '40%'></br></br>satRday"
 subtitle: "CITY"
 author: "DATE"
 #date: "2016/12/12"
@@ -15,7 +15,7 @@ options(htmltools.dir.version = FALSE)
 
 class: slide 
 
-## SatRday - À propos 
+## satRday - About 
 
 .pull-left[
 
@@ -28,26 +28,26 @@ class: slide
 
 .pull-right[
 
-+ SatRday is an __international event__ launched in 2016. . 
++ satRday is an __international event__ that was launched in 2016.
 
-+ SatRday has been sponsored by the __RConsortium__, the Linux Foundation's open source project supporting the international R community.
++ satRday has been sponsored by the __RConsortium__, the Linux Foundation's open source project supporting the international R community.
 
 + It's a (relatively) recent project: we aim at organizing one event per continent per quarter.
 
-+ Each event brings between 100 and 250 participants. 
++ Each event usually attracts between 100 and 250 participants.
 
-+ Always in connection with the local community.  
++ The events are always organised with involvement from the local community.
 
 ]
 
 ---
 class: slide 
 
-## The SatRday philosophy
+## The satRday philosophy
 
 #### Open, and Open source 
 
-Everybody can organise a SatRday as long as it follows these requirements: 
+Everybody can organise a satRday as long as it follows these requirements: 
 
 
 + The main event must happen on a __Saturday__
@@ -64,34 +64,34 @@ Everybody can organise a SatRday as long as it follows these requirements:
 
 + The event should be __volunteer run__
 
-+ __Excess funds should support the local community__ whether that’s the user group, holding the funds over for your next satRday, or arranging a big name speaker to come do a workshop during the next year
++ __Excess funds should support the local community__ whether that’s the user group, holding the funds over for your next satRday, or arranging a prominent international speaker to come and do a workshop during the next year
 
 
 ---
 class: slide 
 
-## Why sponsor SatRday?
+## Why sponsor satRday?
 
-Some good reasons to sponsor a SatRday:
+Some good reasons to sponsor a satRday:
 
-+ SatRday is organized by __volunteers__: by sponsoring the event, you show your support to the local R/Open source community.
++ satRday is organized by __volunteers__: by sponsoring the event, you show your support to the local R/Open source community.
 
-+ SatRday is non-profit: sponsorships and profits (if any) will be __reinvested in community events__.
++ satRday is non-profit: sponsorships and profits (if any) will be __reinvested into community events__.
 
-+ SatRday is "low-cost": we want to __set the ticket at the lowest possible price__. It will be possible thanks to our sponsors.
++ satRday is "low-cost": we want to __set the ticket at the lowest possible price__. This is only possible thanks to our sponsors.
 
-+ SatRday is "at the cutting edge": this conference wants to invite keynote speakers __referents in their field of expertise__. 
++ satRday is "at the cutting edge": this conference aims to invite keynote speakers who are __leaders in their field of expertise__.
 
-+ SatRday is "for everyone": the program is __prepared to suit beginners and advanced users__.
++ satRday is "for everyone": the program is __prepared to suit both beginners and advanced users__.
 
-+ SatRday is inclusive: by sponsoring this event, you __contribute to the effort to include minorities in the tech/data science sector__. 
++ satRday is inclusive: by sponsoring this event, you __contribute to the effort to include minorities in the tech/data science sector__. 
 
 ---
 class: slide 
 
-## How to sponsor SatRday?
+## How to sponsor satRday?
 
-How can you help SatRday? 
+How can you help satRday? 
 
 + __Sponsoring Venue__ : make your venue available for the event. 
 
@@ -99,13 +99,13 @@ How can you help SatRday?
 
 + __Sponsoring Coffee Break__ : finance one or two coffee breaks.
 
-+ __Sponsoring Logistic__ : support the global logistics of the event (help on site with the installation and overall organisation of the day).
++ __Sponsoring Logistic__ : support the general logistics of the event (help on site with the installation and overall organisation of the day).
 
-+ __Sponsoring Communication__ : sponsor the printing of posters, flyers, leaflets, the website and social networks.
++ __Sponsoring Communication__ : sponsor the printing of posters, flyers, leaflets, website costs and marketing via social media.
 
-+ __Sponsoring Goodies__ : sponsor the creation of Goodies for the event: tshirts, stickers...
++ __Sponsoring Goodies__ : sponsor the creation of goodies for the event: tshirts, stickers etc.
 
-+ __Sponsoring financier__ : you sponsor the event in a classic way.
++ __Sponsoring General Finance__ : you sponsor the event in a more traditional way with a direct financial donation.
 
 ---
 class: slide 
@@ -114,7 +114,7 @@ class: slide
 
 Depending on your sponsorship, you will have, in return: 
 
-+ Visibility on SatRday's __website__ and __twitter account__.
++ Visibility on satRday's __website__ and __Twitter account__.
 
 + Your __logo__ on the posters, flyers and programs.
 
@@ -125,7 +125,7 @@ Depending on your sponsorship, you will have, in return:
 ---
 class: slidish 
 
-## SatRday - Timeline 
+## satRday - Timeline 
 
 .pull-left[
 
@@ -196,7 +196,7 @@ class: slidish
 
 ##  About R
 
-SatRday is a conference focused on R, __the main open source language__ for Data Science. 
+satRday is a conference focused on R, __the main open source language__ for Data Science. 
 
 .pull-left[
 
@@ -210,9 +210,9 @@ SatRday is a conference focused on R, __the main open source language__ for Data
 
 + R is __open source__ : free and open source.
 
-+ R is __everywhere__ : used by __university__, __researchers__, and __industrial__.
++ R is __everywhere__ : used by __university__, __researchers__, and __industry__.
 
-+ R has proven himself: he blew his __25 candles__ this year.
++ R has proven itself: it celebrated it's __25th birthday__ this year.
 
 + R is used everywhere: Airbnb, BBC, Booking, Ebay, Facebook, Google, Microsoft, Netflix, Twitter, Uber... 
 
@@ -227,9 +227,9 @@ class: slide
 
 ## To know more 
 
-### SatRday 
+### satRday 
 
-+ SatRday : https://satrdays.org/ 
++ satRday : https://satrdays.org/ 
 
 + Knowledge Base : https://knowledgebase.satrdays.org/
 
@@ -249,7 +249,7 @@ class: slide
 background-image: url(img/photogrid.jpg)
 
 ---
-class: contact 
+class: contact
 
 </br>
 </br>
