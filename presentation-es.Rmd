@@ -1,0 +1,268 @@
+---
+title: "<img src= 'img/placeholder.png' width = '40%'></br></br>satRday"
+subtitle: "CIUDAD"
+author: "FECHA"
+#date: "2016/12/12"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["custom.css", "slides.css"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+class: slide 
+
+## satRday - Acerca de
+
+.pull-left[
+
+</br>
+</br>
+</br>
+<img src ="img/placeholder.png" width = "90%"></img>
+
+]
+
+.pull-right[
+
++ satRday es un __evento internacional__ realizado por primera vez en 2016.
+
++ satRday tiene auspicio del __RConsortium__, el proyecto _open source_ de la Fundación Linux que apoya a la comunidad internacional de R.
+
++ Es un proyecto (relativamente) reciente: nuestro objetivo es organizar un evento por continente cada trimestre.
+
++ Cada evento usualmente convoca entre 100 y 250 participantes.
+
++ La organización de los eventos involucra siempre a la comunidad local.
+
+]
+
+---
+class: slide 
+
+## La filosofía satRday
+
+#### Abiertos y de código abierto 
+
+Cualquiera puede organizar un satRday, siempre que cumpla estos requisitos:
+
++ El evento principal debe ser un __sábado__
+
++ El evento deber tener un __Código de Conducta__ y un __fuerte compromiso por incrementar la diversidad de presentadores y asistentes__
+
++ La entrada para una persona de la industria debe __costar menos que 8 horas de trabajo del salario mínimo__
+
++ Debe haber un __pozo de tickets gratis para personas que no puedan costear__ el precio total
+
++ Los _speakers_ no deben pagar por su entrada
+
++ Debe haber un __mecanismo para fomentar y apoyar que nuevas personas presenten__
+
++ El evento debe organizarse __de forma voluntaria__
+
++ __Los excesos de fondos deben destinarse al apoyo de la comunidad local__ (grupos de usuarios, RLadies, próximos satRdays, workshops, etc.)
+
+---
+class: slide 
+
+## ¿Por qué auspiciar un satRday?
+
+Algunas buenas razones para ser sponsor son:
+
++ satRday es organizado por __voluntarios__: siendo sponsor del evento puedes demostrar tu apoyo por la comunidad local de R y de _open source_.
+
++ satRday es un evento sin fines de lucro: los auspicios y las ganancias (si las llega  a haber) se __reinvierten en eventos para la comunidad local__.
+
++ satRday es un evento "low-cost": queremos __que el ticket tenga el precio más bajo posible__. Esto solo es posible gracias a nuestros sponsors.
+
++ satRday está "a la vanguardia": esta conferencia tiene por objetivo invitar _keynote speakers_ que sean __líderes en su área__.
+
++ satRday es "para todos": el programa está __diseñado para ajustarse tanto a usuarios principiantes como avanzados__.
+
++ satRday es inclusivo: al auspiciar este evento __contribuyes al esfuerzo por incluir a grupos minoritarios en el sector tecnológico/Ciencia de Datos__. 
+
+---
+class: slide 
+
+## ¿Cómo ser sponsor de satRday?
+
+¿Cómo puedes apoyar satRday? 
+
++ __Auspiciando el lugar__: al hacer que tu espacio esté disponible para el evento. 
+
++ __Auspiciando el almuerzo__: financiando el receso de almuerzo.
+
++ __Auspiciando el _coffee break___: financiando uno o dos recesos para café.
+
++ __Auspiciando la lógistica__: apoyando en la logística general (ayuda _in situ_ con las instalación y la organización durante el día del evento).
+
++ __Auspiciando las comunicaciones__: financiando la impresión de afiches, volantes, folletos, costos del sitio web y marketing a través de redes sociales.
+
++ __Auspiciando regalos__: financiando la creación de productos para regalar durante el evento: poleras, stickers, etc.
+
++ __Auspiciando financieramente__: siendo sponsor de una manera tradicional a través de una donación monetaria. 
+
+---
+class: slide 
+
+##  Consideraciones para los sponsors
+
+Dependiendo del tipo de auspicio entregado, tendrás como retorno:
+
++ Visibilidad en el __sitio web__ de satRday y en la __cuenta de Twitter__.
+
++ Tu __logo__ en los afiches, volantes y programa.
+
++ Tu __logo__ en la inauguración, los recesos y en las _slides_ de cierre de la conferencia.
+
++ Un __stand__ en el lugar, durante los recesos.
+
+---
+class: slidish 
+
+## satRday - Línea de tiempo 
+
+.pull-left[
+
+### 2016 
+
++ Budapest 
+
+### 2017 
+
++ Cape Town 
+
++ Puerto Rico
+
+### 2018 
+
++ Cape Town 
+
++ Cardiff
+
++ Amsterdam 
+
++ Belgrade 
+
++ Washington 
+
++ Santiago
+]
+
+.pull-right[
+</br>
+</br>
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+library(maps)
+library(ggplot2)
+library(dplyr)
+events <- tribble(
+  ~ place, ~ lat, ~ long,
+  "Budapest",47.497912, 19.040235, 
+  "Cape Town",-33.924869, 18.424055, 
+  "Puerto Rico",18.220833, -66.590149, 
+  "Cardiff",51.481581, -3.179090, 
+  "Amsterdam",52.370216, 4.895168, 
+  "Belgrade",44.786568, 20.448922, 
+  "Washington",38.907192, -77.036871,
+  "Santiago", -33.4378, -70.6505
+)
+map_data("world") %>% 
+  ggplot(aes(long, lat, group=group)) +
+  geom_polygon(fill="white", colour="gray") +
+  geom_point(data = events, aes(long, lat, group = NULL), colour = "#3265B0", size = 2) + 
+  guides(fill=FALSE) +
+  coord_quickmap() +
+  theme_void()
+```
+
+]
+
+---
+classe: slide 
+
+## LUGAR AÑO 
+
+### El equipo organizador
+
+
+Sobre el equipo organizador...
+
+---
+class: slidish
+
+##  Acerca de R
+
+satRday es una conferencia centrada en R, __el principal lenguaje _open source_ __ para Ciencia de Datos 
+
+.pull-left[
+
+</br>
+</br>
+<img src ="img/rlogo.png" width = "90%"></img>
+
+]
+
+.pull-right[
+
++ R es __open source__: gratis y de código abierto.
+
++ R está __en todas partes__: es utilizado por __universidades__, __investigadores__, y la __industria__.
+
++ R se ha demostrado a sí mismo: celebra su __cumpleaños 25__ en 2018.
+
++ R se usa en todas partes: Airbnb, BBC, Booking, Ebay, Facebook, Google, Microsoft, Netflix, Twitter, Uber... 
+
+]
+
+R es actualmente la __'lengua franca' en Ciencia de Datos__ y se ha convertido en una verdaderoa ventaja profesional, en cualquier área de especialización.
+
+R tiene usuarios en todas partes: tanto en el sector privado como en el sector público.
+
+---
+class: slide
+
+## Para saber más 
+
+### satRday 
+
++ satRday : https://satrdays.org/ 
+
++ Knowledge Base : https://knowledgebase.satrdays.org/
+
+## R Consortium 
+
++ RConsortium : https://www.r-consortium.org/ 
+
+## R 
+
++ Sobre R : https://www.r-project.org/
+
++ Compañías que usan R : https://github.com/ThinkR-open/companies-using-r
+
+---
+class: slide 
+
+background-image: url(img/photogrid.jpg)
+
+---
+class: contact
+
+</br>
+</br>
+</br>
+</br>
+</br>
+
+# Contacto 
+
+## QUIÉN QUIÉN
+
+### this@that.com
+
+### a quién llamar
+
