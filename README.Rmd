@@ -32,6 +32,8 @@ You'll find a template in:
 
 + French : presentation-fr.Rmd
 
++ Spanish: presentatio-es.Rmd
+
 ### Contribute
 
 Feel free to send your version, or to suggest changes to the template content / design.

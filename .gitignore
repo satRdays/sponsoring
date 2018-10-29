@@ -2,4 +2,6 @@
 .*html
 .*pdf
 .Rproj.user
-presentation-fr.html
+.Rhistory
+.RData
+.Ruserdata

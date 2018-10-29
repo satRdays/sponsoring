@@ -1,5 +1,5 @@
 ---
-title: "<img src= 'img/placeholder.png' width = '40%'></br></br>SatRday"
+title: "<img src= 'img/placeholder.png' width = '40%'></br></br>satRday"
 subtitle: "Paris"
 author: "23 février 2019"
 #date: "2016/12/12"
@@ -15,7 +15,7 @@ options(htmltools.dir.version = FALSE)
 
 class: slide 
 
-## SatRday - À propos 
+## satRday - À propos 
 
 .pull-left[
 
@@ -28,9 +28,9 @@ class: slide
 
 .pull-right[
 
-+ SatRday est un __événement international__ lancé en 2016. 
++ satRday est un __événement international__ lancé en 2016. 
 
-+ SatRday a été sponsorisé par le __RConsortium__, projet open source de la fondation Linux visant à soutenir la communauté R internationale.
++ satRday a été sponsorisé par le __RConsortium__, projet open source de la fondation Linux visant à soutenir la communauté R internationale.
 
 + Projet (relativement) récent : l'objectif, à terme, étant d'organiser un événement par continent par trimestre.
 
@@ -44,7 +44,7 @@ class: slidish
 
 ## À propos de R 
 
-SatRday est une conférence centrée sur R, __langage open source de référence__ dans le secteur de la Data Science. 
+satRday est une conférence centrée sur R, __langage open source de référence__ dans le secteur de la Data Science. 
 
 .pull-left[
 
@@ -72,11 +72,11 @@ On retrouve des utilisateurs de R partout : dans le privé, avec l'énergie, la 
 ---
 class: slide 
 
-## La philosophie SatRday
+## La philosophie satRday
 
 #### Ouvert, et Open source 
 
-L'organisation d'un SatRday est ouverte à tous, à condition de respecter ces prérequis : 
+L'organisation d'un satRday est ouverte à tous, à condition de respecter ces prérequis : 
 
 + L'événément est organisé un __samedi__.
 
@@ -95,28 +95,28 @@ L'organisation d'un SatRday est ouverte à tous, à condition de respecter ces p
 ---
 class: slide 
 
-## Pourquoi sponsoriser SatRday ?
+## Pourquoi sponsoriser satRday ?
 
-Quelques bonnes raisons de sponsoriser un SatRday :
+Quelques bonnes raisons de sponsoriser un satRday :
 
-+ SatRday est un organisé par des __bénévoles__ : en sponsorisant l'événement, vous montrez votre soutien à la communauté R/Open source locale.
++ satRday est un organisé par des __bénévoles__ : en sponsorisant l'événement, vous montrez votre soutien à la communauté R/Open source locale.
 
-+ SatRday est "non-profit" : les sponsorings et bénéfices (s'il y en a) seront __réinvestis dans des événements pour la communauté__.
++ satRday est "non-profit" : les sponsorings et bénéfices (s'il y en a) seront __réinvestis dans des événements pour la communauté__.
 
-+ SatRday est "low-cost" : nous souhaitons __fixer le prix d'entrée à un tarif le plus bas possible__. C'est grâce à nos sponsors que nous pouvons agir sur ce point.
++ satRday est "low-cost" : nous souhaitons __fixer le prix d'entrée à un tarif le plus bas possible__. C'est grâce à nos sponsors que nous pouvons agir sur ce point.
 
-+ SatRday est "à la pointe" : cette conférence a pour objectif d'inviter des "keynote speakers" __référents dans leur domaine d'expertise__. 
++ satRday est "à la pointe" : cette conférence a pour objectif d'inviter des "keynote speakers" __référents dans leur domaine d'expertise__. 
 
-+ SatRday est "pour tous" : le progamme est préparé pour convenir __aux débutants et aux utilisateurs avancés__, mais aussi aux curieux.
++ satRday est "pour tous" : le progamme est préparé pour convenir __aux débutants et aux utilisateurs avancés__, mais aussi aux curieux.
 
-+ SatRday est inclusif : en sponsorisant cet événement, vous __participez à l'effort d'inclusion des minorités dans le secteur de la tech/data science__. 
++ satRday est inclusif : en sponsorisant cet événement, vous __participez à l'effort d'inclusion des minorités dans le secteur de la tech/data science__. 
 
 ---
 class: slide 
 
-## Comment sponsoriser SatRday ?
+## Comment sponsoriser satRday ?
 
-Comment pouvez-vous aider SatRday ? 
+Comment pouvez-vous aider satRday ? 
 
 + __Sponsoring Accueil__ : vous pouvez mettre à disposition de l'événement des locaux. 
 
@@ -139,7 +139,7 @@ class: slide
 
 Selon votre plafond de sponsoring, vous aurez notamment, en contrepartie : 
 
-+ La visibilité sur le __site web__ et le __compte Twitter__ de SatRday.
++ La visibilité sur le __site web__ et le __compte Twitter__ de satRday.
 
 + Votre __logo__ sur l'affiche, les flyers et le programme.
 
@@ -253,7 +253,7 @@ De __toute la France__ : Paris, Rennes, Toulouse, Marseille, Bordeaux, Grenoble.
 ---
 class: slidish 
 
-## SatRday - Timeline 
+## satRday - Timeline 
 
 .pull-left[
 
@@ -310,13 +310,37 @@ map_data("world") %>%
 ]
 
 ---
+classe: slide 
+
+## Paris 2019 
+
+### L'équipe organisatrice
+
+
+satRday Paris 2019 est aujourd'hui porté par "gRrr", __collectif pour le développement de R dans la communauté Francophone__. Organisé notamment sur une Slack (plateforme d'échange en ligne), gRrr compte aujourd'hui 250 membres. Parmi ces membres, on retrouve : 
+
++ des __étudiants et doctorants__ : INSA, SciencePo, INRA, UGA...
+
++ des professionnels du __secteur public__ : INSEE, Etalab, SDES, DREES, DREAL, Ministère de la Justice, Pôle Emploi...
+
++ des professionnels du __secteur privé __: RTE, EDF, ThinkR, Locke Data, Datactivist, DreameRs, Ardata, Datapole, iAdvize, freelances...
+
++ des __ONG__ : rOpenSci...
+
++ des __chercheurs__ : CNRS, IRSN, LPNC...
+
+De __toute la France__ : Paris, Rennes, Toulouse, Marseille, Bordeaux, Grenoble... 
+
+... et d'__ailleurs__ : Togo, Sénégal, Suède... 
+
+---
 class: slide
 
 ## En savoir plus 
 
-### SatRday 
+### satRday 
 
-+ SatRday : https://satrdays.org/ 
++ satRday : https://satrdays.org/ 
 
 + Knowledge Base : https://knowledgebase.satrdays.org/
 
