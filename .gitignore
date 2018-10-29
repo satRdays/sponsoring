@@ -1,0 +1,5 @@
+.*_files/
+.*html
+.*pdf
+.Rproj.user
+presentation-fr.html
