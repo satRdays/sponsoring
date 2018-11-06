@@ -246,7 +246,7 @@ class: slide
 ---
 class: slide 
 
-background-image: url(img/photogrid.jpg)
+background-image: url(img/photogrid_4-3.jpg)
 
 ---
 class: contact
