@@ -1,12 +1,20 @@
 README
 ================
 
-## Sponsoring
+## Content
+
+### Sponsoring
 
 You’ll find in this repo a xaringan template for creating slides that
 you can use when looking for sponsors.
 
-### How to
+### Flyers
+
+The flyer\_day.Rmd tempalte can be used as a 4 pages flyer to be given
+the day of the conference, including a home page, the program, practical
+information and a spot for sponsors.
+
+## How to
 
   - install the {xaringan} package
 
@@ -25,6 +33,8 @@ You’ll find a template in:
   - English : presentation-en.Rmd
 
   - French : presentation-fr.Rmd
+
+  - Spanish: presentatio-es.Rmd
 
 ### Contribute
 

@@ -7,11 +7,17 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Sponsoring
+## Content
+
+### Sponsoring
 
 You'll find in this repo a xaringan template for creating slides that you can use when looking for sponsors.
 
-### How to 
+### Flyers
+
+The flyer_day.Rmd tempalte can be used as a 4 pages flyer to be given the day of the conference, including a home page, the program, practical information and a spot for sponsors.
+
+## How to 
 
 + install the {xaringan} package 
 
