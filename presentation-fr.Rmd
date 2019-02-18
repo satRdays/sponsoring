@@ -150,7 +150,7 @@ Selon votre plafond de sponsoring, vous aurez notamment, en contrepartie :
 + La possibilité d'amener un __kakémono__. 
 
 ---
-classe: slide 
+class: slide 
 
 ## Paris 2019 
 
@@ -168,46 +168,63 @@ L'événement sera accueilli par le Centre de Paris Claude Bernard, AgroParisTec
 <img src = "img/agroparistech.png" width = "600px" align = "center"> 
 </div>
 
+---
+class: slide 
+
+## Paris 2019 
+
+## Speakers Confirmés 
+
++ __Lionel Henry__, Software Engineer chez __RStudio__, USA.
+
++ __Henrik Bengtsson__, Assistant Professor, __University of California__, USA.
+
++ __Suzan Baert__, BI and Data Analytics consultant, __Hedera Insight__, Pays Bas.
+
++ __Bea Hernàndez__, Data Scientist chez __DatMean__, Espagne.
+
++ __Hadrien Commenge__, __MCF en Géographie__, France. 
+
+
+
+<!-- classe: slide  -->
+
+<!-- ## Paris 2019 - Budget prévisionnel -->
+
+<!-- #### Lieu -->
+
+<!-- + Nous espérons trouver un lieu pouvant nous sponsoriser en nous accueillant -->
+
+<!-- #### Speakers -->
+
+<!-- + Invitations de speakers internationaux : -->
+<!--   + 4 Europe : 750€ chaque, soit 3000€ -->
+
+<!-- #### Frais de bouche  -->
+
+<!-- + Repas & Pause pour 150 personnes  -->
+<!--   + 15€ par personne, soit 2250€ -->
+
+<!-- #### Communication -->
+
+<!-- + Flyers, stickers, communication web -->
+<!--   + 1500€ -->
+
+<!-- --- -->
+<!-- classe: slide  -->
+
+<!-- ## Paris 2019 - Budget prévisionnel -->
+
+<!-- ### Sponsoring -->
+
+<!-- Revenus estimés : 6000 € -->
+
+<!-- ### Places -->
+
+<!-- Nous espérons __couvrir l'ensemble des coûts grâce au sponsoring__, ce qui nous permettra de __rendre l'événement gratuit.__ -->
 
 ---
-classe: slide 
-
-## Paris 2019 - Budget prévisionnel
-
-#### Lieu
-
-+ Nous espérons trouver un lieu pouvant nous sponsoriser en nous accueillant
-
-#### Speakers
-
-+ Invitations de speakers internationaux :
-  + 4 Europe : 750€ chaque, soit 3000€
-  
-#### Frais de bouche 
-
-+ Repas & Pause pour 150 personnes 
-  + 15€ par personne, soit 2250€
-  
-#### Communication
-
-+ Flyers, stickers, communication web
-  + 1500€
-
----
-classe: slide 
-
-## Paris 2019 - Budget prévisionnel
-
-### Sponsoring
-
-Revenus estimés : 6000 €
-
-### Places
-
-Nous espérons __couvrir l'ensemble des coûts grâce au sponsoring__, ce qui nous permettra de __rendre l'événement gratuit.__
-
----
-classe: slide 
+class: slide 
 
 ## L'équipe 
 
@@ -310,30 +327,6 @@ map_data("world") %>%
 ]
 
 ---
-classe: slide 
-
-## Paris 2019 
-
-### L'équipe organisatrice
-
-
-satRday Paris 2019 est aujourd'hui porté par "gRrr", __collectif pour le développement de R dans la communauté Francophone__. Organisé notamment sur une Slack (plateforme d'échange en ligne), gRrr compte aujourd'hui 250 membres. Parmi ces membres, on retrouve : 
-
-+ des __étudiants et doctorants__ : INSA, SciencePo, INRA, UGA...
-
-+ des professionnels du __secteur public__ : INSEE, Etalab, SDES, DREES, DREAL, Ministère de la Justice, Pôle Emploi...
-
-+ des professionnels du __secteur privé __: RTE, EDF, ThinkR, Locke Data, Datactivist, DreameRs, Ardata, Datapole, iAdvize, freelances...
-
-+ des __ONG__ : rOpenSci...
-
-+ des __chercheurs__ : CNRS, IRSN, LPNC...
-
-De __toute la France__ : Paris, Rennes, Toulouse, Marseille, Bordeaux, Grenoble... 
-
-... et d'__ailleurs__ : Togo, Sénégal, Suède... 
-
----
 class: slide
 
 ## En savoir plus 
@@ -372,7 +365,7 @@ class: contact
 
 ## Colin Fay 
 
-### colin@thinkr.fr
+### satrdayparis@gmail.com
 
 ### 06.24.21.32.18
 
