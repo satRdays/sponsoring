@@ -30,7 +30,7 @@ options(htmltools.dir.version = FALSE)
 }
 
 .sponsor-img {
-    width: 33.3%;
+    width: 24%;
     float: left;
   padding-bottom:10px;
 }
@@ -47,50 +47,57 @@ options(htmltools.dir.version = FALSE)
 }
 .remark-slide-content {
     padding: 1em 3em 1em 3em;
+  font-size: 19px;
 }
 table{
   border-spacing: 8px
 }
 ```
 
-### Morning
+### Program
 
-|   |     | Amphi Risler  | 
+|   |     | Talks  | 
 |:----- |:----- |:-----|:-----|:-----|
-|09:00  |09:30  |Opening by C. Fay & M. Epstein & J. Chiquet. | 
-|09:30  |10:30  |__L. Henry__ - Programming in the tidyverse | 
-|10:30	|11:00  |Coffee Break                                | 
+|09:00  |09:30  |Opening by J. Chiquet, M. Epstein & C. Fay. | 
+|09:30  |10:30  |__L. Henry__ - Programming in the tidyverse. | 
+|10:30	|11:00  |Coffee Break                          | 
 
 
-|   |     | Amphi Risler  | Workshop 1 | Workshop 2 | 
+|   |     | Talks  | Workshop 1  | Workshop 2 | 
 |:----- |:----- |:-----|:-----|:-----|
-|11:00  |12:30 |<br>__F Meyer & V Perrier__ - Find your dream job : a Shiny application for job matching <br> __B. Hernandez __- Football meets graphs. | __S. Baert__: Introduction to the tidyverse. |__É. Côme__, __K. Antunez__, __T. Giraud__: Spatial data and cartography |
+|11:00  |12:30 |<br> __F Meyer & V Perrier__ - Find your dream job : a Shiny application for job matching. <br> __B. Hernandez __- Football meets graphs. | __S. Baert__: Introduction to the tidyverse. |__É. Côme__, __K. Antunez__, __T. Giraud__ - Spatial data and cartography. |
 |12:30  |	13:30 |Lunch Break  | | |
 
 ---
-### Afternoon
 
-|   |     | Amphi Risler  | Workshop 1 | Workshop 2 | 
+|   |     | Talks | Workshop 1 | Workshop 2 | 
 |:----- |:----- |:-----|:-----|:-----|
-|13:30  |15:00|<br>	__H. Commenge__ - R & Space: Navigate through geographical information. <br> __D Roussel__ - A journey into data science - From an idea to a viable product <br> __S. Rochette__ - Everything but maps with spatial tools | __S. Donnet__: Machine Learning, deep learning with R | __C. Roquebert__: Textual analysis with R |
-|15:00	|15:30|	Coffee Break | | |
-|15:30  |17:00|<br>__S.Baert__ - Need for Speed: the data manipulation version. <br> __H. Bengtsson__ - The {future} package | __A. Collier__ Markdown: Reproducible Research and Automated Reporting. |DataThon with __Caelif__ - "Students well being"  |
-|17:00	|17:15|	Closing by __Diane Beldame__| | |
+|13:30  |15:00|<br>	__H. Commenge__ - R & Space: Navigate through geographical information. <br> __D. Roussel__ - A journey into data science - From an idea to a viable product. <br> __S. Rochette__ - Everything but maps with spatial tools. | __S. Donnet__ - Machine Learning, deep learning with R. | __C. Roquebert__ - Textual analysis with R. |
+|15:00	|15:30|	Coffee Break    | |  |
+|15:30  |17:00|__S.Baert__ - Need for Speed: the data manipulation version. <br> __H. Bengtsson__ - The {future} package. | __A. Collier__ - Markdown: Reproducible Research and Automated Reporting. | __Hackathon__ - Exploring LGBTI+ students well being thanks to the BEL survey (EclairE). |
+
+|   |     |   | 
+|:----- |:----- |:-----|:-----|:-----|
+|17:00	|17:15|	Closing by __D. Beldame__.| | |
 
 ---
 
 #### Practical information
 
-+ You can use the __#satRdayParis__ hashtag, and follow us on __@satrdayparis__
++ Talks are given in the __Amphithéâtre Tisserand__, the workshops in __Salle 30__ and __Salle 31__. People who have pre-registered for the workshops will be given priority.
 
-+ Food will be served in the "Salle du Centenaire". Everything is vegetarian-friendly.
++ Food will be served in the __Salle du Centenaire__. Everything is vegetarian-friendly.
 
-+ Wifi: __eduroam is available for academics__. Others can use the __"AgroParisTech Visiteurs"__, with login _Conférence-Chiquet_ and password _VHcwCp8XJ5S_.
-
-
-#### Many thanks to our sponsors!
++ You can use the __#satRdayParis__ hashtag, and follow us on __@satrdayparis__.
 
 
++ Wifi: __eduroam is available for academics__. Others can use the __"AgroParisTech Visiteurs"__, with the password _VHcwCp8XJ5S_. Please note that this network only allow http/https, and no ssh. 
+
+
+#### Many thanks to our gold sponsors!
+
+
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/rte.png'></div>
 <div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/agroparis.jpg'></div>
 <div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/Gandi.png'></div>
 <div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/samm.png'></div>

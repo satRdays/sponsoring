@@ -1,0 +1,228 @@
+---
+title: "<img src= 'https://paris2019.satrdays.org/images/satRdayLogo-square.png' width = '40%'></br></br>sat<b>R</b>day"
+subtitle: "PARIS - 2019-02-23"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: ["custom.css", "slides.css"]
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{css echo = FALSE}
+.remark-slide-number{
+  visibility:hidden;
+}
+.remark-slide-content h1 {
+    font-size: 75px;
+    color: #2165b6;
+}
+
+.remark-slide-content h1 b {
+    color: #5AAFFD;
+}
+.inside h1 {
+    font-size: 100px;
+    color: #2165b6;
+}
+
+.inside h1 b {
+    color: #5AAFFD;
+}
+
+.remark-slide-content h2 {
+    font-size: 45px;
+    color: #2165b6;
+}
+
+.sponsor-img {
+    width: 33%;
+    float: left;
+  padding-bottom:10px;
+}
+.sponsor-img > img {
+    max-width: 100%;
+    width: 170px;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.remark-slide-content {
+    padding: 1em 3em 1em 3em;
+}
+table{
+  border-spacing: 8px
+}
+
+.right {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+```
+
+# Our gold sponsors
+
+
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/rte.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/agroparis.jpg'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/Gandi.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/samm.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/Dataiku.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/edf.jpg'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/rstudio.png'></div>
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: center middle inverse inside
+
+# Welcome!
+
+### Julien Chiquet, Muriel Epstein, Colin Fay 
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: center middle inverse inside
+
+# About satRday
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: center middle inverse inside
+
+# About satRday Paris
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: center middle inverse inside
+
+# Code of Conduct
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: center middle inverse inside
+
+# Twitter
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: center middle inverse inside
+
+# About the LabSchool Network
+
+.right[
+### `#satRdayParis`
+]
+---
+class: center middle inverse inside
+
+# The program
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: slide
+
+### Morning
+
+|   |     | Talks  | 
+|:----- |:----- |:-----|:-----|:-----|
+|09:00  |09:30  |Opening by C. Fay & M. Epstein & J. Chiquet. | 
+|09:30  |10:30  |__L. Henry__ - Programming in the tidyverse | 
+|10:30	|11:00  |Coffee Break                                | 
+
+
+|   |     | Talks  | Workshop 1  | Workshop 2 | 
+|:----- |:----- |:-----|:-----|:-----|
+|11:00  |12:30 |<br>__F Meyer & V Perrier__ - Find your dream job : a Shiny application for job matching <br> __B. Hernandez __- Football meets graphs. | __S. Baert__: Introduction to the tidyverse. |__É. Côme__, __K. Antunez__, __T. Giraud__: Spatial data and cartography |
+|12:30  |	13:30 |Lunch Break  | | |
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: slide
+
+### Afternoon
+
+|   |     | Talks | Workshop 1 | Workshop 2 | 
+|:----- |:----- |:-----|:-----|:-----|
+|13:30  |15:00|<br>	__H. Commenge__ - R & Space: Navigate through geographical information. <br> __D Roussel__ - A journey into data science - From an idea to a viable product <br> __S. Rochette__ - Everything but maps with spatial tools | __S. Donnet__: Machine Learning, deep learning with R | __C. Roquebert__: Textual analysis with R |
+|15:00	|15:30|	Coffee Break | | |
+|15:30  |17:00|<br>__S.Baert__ - Need for Speed: the data manipulation version. <br> __H. Bengtsson__ - The {future} package | __A. Collier__ Markdown: Reproducible Research and Automated Reporting. |DataThon with __Caelif__ - "Students well being"  |
+|17:00	|17:15|	Closing by __Diane Beldame__| | |
+
+.right[
+### `#satRdayParis`
+]
+
+---
+class: center middle inverse inside
+
+# useR! 2019
+
+.right[
+### `#satRdayParis`
+]
+---
+class: center middle inverse inside
+
+# Logistic and practical information
+
+.right[
+### `#satRdayParis`
+]
+---
+class: center middle inverse inside
+
+# Wifi 
+
+### academics: eduroam
+### others: "AgroParisTech Visiteurs" / VHcwCp8XJ5S
+
+.right[
+### `#satRdayParis`
+]
+
+---
+# Our gold sponsors
+
+
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/rte.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/agroparis.jpg'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/Gandi.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/samm.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/Dataiku.png'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/edf.jpg'></div>
+<div class = 'sponsor-img'><img src = 'https://paris2019.satrdays.org/images/rstudio.png'></div>
+
+.right[
+### `#satRdayParis`
+]
