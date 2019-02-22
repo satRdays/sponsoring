@@ -1,7 +1,8 @@
+/*
 .main-block {
   break-inside: avoid;
 }
-
+*/
 .break-after-me {
   break-after: page;
 }
@@ -10,12 +11,12 @@
 }
 
 @page {
-  size: 46.8in 33.1in;
+  size: 148mm 210mm;
   margin: 0;
 }
 * {
   box-sizing: border-box;
-}
+}/*
 html {
   width: 46.8in;
   height: 33.09in;
@@ -59,7 +60,7 @@ body {
 .section-10 { grid-area: S10; }
 .section-11 { grid-area: S11; }
 .section-12 { grid-area: S12; }
-
+*/
 h1, .poster-title, .figure {
   text-align: center;
 }

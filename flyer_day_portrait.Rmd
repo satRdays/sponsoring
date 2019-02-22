@@ -94,11 +94,16 @@ border-bottom: 1px solid #000000;
 width: 100%;
 display: block;
 }
+:root {
+  --width: 148mm;
+  --height: 210mm;
+}
 ```
 
 ### Practical information
 
-+ Talks are given in the __Amphithéâtre Tisserand__, the workshops in __Salle 30__ and __Salle 31__.
++ Talks are given in the __Amphithéâtre Tisserand__.
++ Workshops will be held in __Salle 30__ and __Salle 31__.
 + Food will be served in the __Salle du Centenaire__. Everything is vegetarian-friendly.
 + You can use the __#satRdayParis__ hashtag, and follow us on __@satrdayparis__
 + Wifi: __eduroam is available for academics__. Others can use the __"AgroParisTech Visiteurs"__, with the password _VHcwCp8XJ5S_.
