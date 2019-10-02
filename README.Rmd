@@ -40,6 +40,8 @@ You'll find a template in:
 
 + Spanish: presentation-es.Rmd
 
++ Brazilian Portuguese: presentation-pt-br.Rmd
+
 ### Contribute
 
 Feel free to send your version, or to suggest changes to the template content / design.
