@@ -45,7 +45,7 @@ class: slide
 ## A filosofia satRday
 #### Aberto, e Código Aberto
 
-Todos podem organizar um satRday, desde que siga estes requisitos: 
+Qualquer um pode organizar um satRday, desde que siga estes requisitos: 
 
 + O evento principal deve acontecer em um __Sábado__
 
@@ -61,7 +61,7 @@ Todos podem organizar um satRday, desde que siga estes requisitos:
 
 + O evento deve ser __organizado de forma voluntária__
 
-+ __Os recursos em excesso devem ser utilizados para apoiar a comunidade local__, seja esse o grupo de usuários, retendo os fundos para o seu próximo satRday, ou organizando para que um palestrante de destaque internacional faça um workshop durante o ano seguinte.
++ __Os recursos em excesso devem ser utilizados para apoiar a comunidade local__ (grupos de usuários, RLadies, próximos satRdays, workshops, etc.) 
 
 ---
 class: slide 
@@ -74,11 +74,11 @@ Algumas boas razões para patrocinar um satRday:
 
 + O satRday é sem fins lucrativos: patrocínios e lucros (se houver) serão __investidos em eventos da comunidade__. 
 
-+ O satRday é "baixo custo": queremos __estabelecer a inscrição pelo menor preço possível__. Isso só é possível devido aos nossos patrocinadores. 
++ O satRday é acessível: queremos __que a inscrição tenha o menor preço possível__. Isso só é possível devido aos nossos patrocinadores. 
 
 + O satRday está "na vanguarda": esta conferência tem como objetivo convidar palestrantes que são __líderes em seu campo de especialização__. 
 
-+ O satRday é "para todos": a programação está __preparado para atender usuários iniciantes e avançados__.
++ O satRday é para todos: a programação está __preparada para atender usuários iniciantes e avançados__.
 
 + O satRday é inclusivo: ao patrocinar este evento, você __contribui para o esforço de incluir minorias no setor de ciência de dados/tecnologia__. 
 ---
