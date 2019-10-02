@@ -34,7 +34,9 @@ You’ll find a template in:
 
   - French : presentation-fr.Rmd
 
-  - Spanish: presentatio-es.Rmd
+  - Spanish: presentation-es.Rmd
+
+  - Brazilian Portuguese: presentation-pt-br.Rmd
 
 ### Contribute
 
